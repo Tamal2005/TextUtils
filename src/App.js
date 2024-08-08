@@ -1,6 +1,5 @@
 import './App.css'
 import Alert from './components/Alert';
-// import About from './components/About';
 import NavBar from './components/NavBar';
 import Textform from './components/Textform';
 import React, { useState } from 'react';
@@ -43,9 +42,7 @@ function App() {
         <Alert alert={alert}/>
         <div className="container my-2">
           <Textform showAlert={showAlert} heading="Enter the text to analyze" mode={mode} />
-          {/* <About exact path="/about" mode={mode}/> */}
           {/* <Routes>
-            <Route exact path="/about" element={<About mode={mode} />}></Route>
             <Route exact path="/" element={<Textform showAlert={showAlert} heading="Enter the text to analyze" mode={mode} />}></Route>
           </Routes> */}
         </div>
