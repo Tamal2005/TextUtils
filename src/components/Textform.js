@@ -13,6 +13,7 @@ export default function Textform(props) {
         setText(newText);
         props.showAlert("Converted to lowercase","success")
     }
+
     const handleRemoveSpaces = () => {
         // console.log('LowerCase was Clicked' + text);
         let newText = text.split(/[ ]+/);
@@ -44,7 +45,7 @@ export default function Textform(props) {
             </div>
             <div className='container my-2' style={{color: props.mode==='dark'?'white':'black'}}>
                 <h2>Your Text Summary</h2>
-                <p>{text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters </p>
+                <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters </p>
                 <p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minutes Read</p>
                 <h3>Preview</h3>
                 <p>{text.length>0?text:"Nothing to preview!"}</p>
