@@ -1,6 +1,6 @@
 # TextUtlis
 
-A simple and interactive Tic-Tac-Toe game built with React, JavaScript, CSS, HTML.
+TextUtlis is a utility which can be used to manipulate your text in the way you want.
 
 ## How To Run The Project 
 
@@ -26,7 +26,7 @@ npm install
 npm start
 ```
 ## Visit TextUtlis
- [Visit TextUtlis ](https://tictactoegame-bytamal.netlify.app)
+ [Visit TextUtlis ](tamal2005.github.io/TextUtils/)
 ## Contributing
 - If you want others to contribute:
   - Fork the repository.
