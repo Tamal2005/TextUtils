@@ -26,7 +26,7 @@ npm install
 npm start
 ```
 ## Visit TextUtlis
- [Visit TextUtlis ](https://tamal2005.github.io/TextUtlis/)
+ [Visit TextUtlis](https://tamal2005.github.io/TextUtils/)
 ## Contributing
 - If you want others to contribute:
   - Fork the repository.
